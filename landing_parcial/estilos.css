@@ -1,0 +1,203 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf6;
+  color: #333;
+}
+
+header {
+  background-color: #4b2e2e;
+  color: #f5e9e0;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #f5e9e0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.92); /* fondo blanco con opacidad */
+  color: #2e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #4b2e2e;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  background-color: #4b2e2e;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6a3a2e;
+}
+
+footer {
+  background-color: #4b2e2e;
+  color: #f5e9e0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Estilo del formulario */
+form {
+  background-color: #fdf6f0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #a9745c;
+  box-shadow: 0 0 5px rgba(169, 116, 92, 0.5);
+}
+
+form button {
+  background-color: #a9745c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8c5f47;
+}
+
+#respuesta {
+  font-style: italic;
+  color: #4b2e2e;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fceee5;
+  border-radius: 8px;
+}
+
+.card-formulario {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  padding: 40px;
+}
+
+body {
+    background-image: url("img/16684485654614.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff; /* texto blanco si el fondo es oscuro */
+}
+
+.respuesta {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.96);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  color: #4b2e2e;
+  text-align: center;
+}
+
+.respuesta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+.respuesta p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+.boton-volver {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4b2e2e;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover {
+  background-color: #6a3a2e;
+}

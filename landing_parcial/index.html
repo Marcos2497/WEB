@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Café Néctar - El despertar de los sentidos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Café Néctar</h1>
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main >
+        <section id="nosotros">
+            <h2 class="">Bienvenido a Café Néctar</h2>
+            <p>Sumergite en un ambiente cálido y sofisticado donde cada taza es una obra de arte. Café Néctar combina
+                sabores intensos con el encanto de lo artesanal.</p>
+        </section>
+
+        <section id="promo">
+            <h2>Obtené tu descuento especial</h2>
+            <p>Precio del combo gourmet: <strong>$4200</strong></p>
+            <input type="number" id="descuento" placeholder="Ingresá % de descuento">
+            <button onclick="calcularDescuento()">Calcular</button>
+            <p id="precioFinal"></p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto y reservas</h2>
+            <div class="card-formulario">
+                <form id="formulario" action="formulario.php" method="POST">
+
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribinos tu mensaje..." required></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            <p id="respuesta"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Café Néctar · Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
